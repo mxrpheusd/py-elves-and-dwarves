@@ -11,7 +11,6 @@ def calculate_team_total_rating(team: list[Player]) -> int:
 
 
 def elves_concert(elves: list[Elf]) -> None:
-    # Тобі треба пройтися циклом for по списку elves
     for elf in elves:
         elf.play_elf_song()
 
